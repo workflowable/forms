@@ -2,9 +2,7 @@
 
 namespace Workflowable\Form\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Workflowable\Form\FormServiceProvider;
 
 class TestCase extends Orchestra
 {
