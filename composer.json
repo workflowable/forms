@@ -55,16 +55,6 @@
             "phpstan/extension-installer": true
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Workflowable\\Form\\FormServiceProvider"
-            ],
-            "aliases": {
-                "Form": "Workflowable\\Form\\Facades\\Form"
-            }
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
