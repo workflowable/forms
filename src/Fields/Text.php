@@ -1,8 +1,8 @@
 <?php
 
-namespace Workflowable\Form\Fields;
+namespace Workflowable\Forms\Fields;
 
-use Workflowable\Form\Contracts\TextContract;
+use Workflowable\Forms\Contracts\TextContract;
 
 class Text extends Field implements TextContract
 {

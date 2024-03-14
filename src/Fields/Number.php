@@ -1,8 +1,8 @@
 <?php
 
-namespace Workflowable\Form\Fields;
+namespace Workflowable\Forms\Fields;
 
-use Workflowable\Form\Contracts\NumberContract;
+use Workflowable\Forms\Contracts\NumberContract;
 
 class Number extends Text implements NumberContract
 {

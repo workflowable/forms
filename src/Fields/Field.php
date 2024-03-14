@@ -1,10 +1,10 @@
 <?php
 
-namespace Workflowable\Form\Fields;
+namespace Workflowable\Forms\Fields;
 
 use Closure;
 use Illuminate\Support\Traits\Macroable;
-use Workflowable\Form\Contracts\FieldContract;
+use Workflowable\Forms\Contracts\FieldContract;
 
 abstract class Field implements FieldContract
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Workflowable\Form\Contracts;
+namespace Workflowable\Forms\Contracts;
 
 interface SelectContract extends FieldContract
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Workflowable\Form\Tests\Unit;
+namespace Workflowable\Forms\Tests\Unit;
 
-use Workflowable\Form\Fields\Text;
-use Workflowable\Form\Tests\TestCase;
+use Workflowable\Forms\Fields\Text;
+use Workflowable\Forms\Tests\TestCase;
 
 class TextTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Workflowable\Form\Tests;
+namespace Workflowable\Forms\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
