@@ -1,8 +1,8 @@
 <?php
 
-namespace Workflowable\Form\Fields;
+namespace Workflowable\Forms\Fields;
 
-use Workflowable\Form\Contracts\CheckboxContract;
+use Workflowable\Forms\Contracts\CheckboxContract;
 
 class Checkbox extends Field implements CheckboxContract
 {

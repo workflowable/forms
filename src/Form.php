@@ -1,13 +1,13 @@
 <?php
 
-namespace Workflowable\Form;
+namespace Workflowable\Forms;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator as ValidatorFacade;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Validation\Validator as Validator;
-use Workflowable\Form\Fields\Field;
+use Workflowable\Forms\Fields\Field;
 
 class Form
 {

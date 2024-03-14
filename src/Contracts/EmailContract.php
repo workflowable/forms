@@ -1,6 +1,6 @@
 <?php
 
-namespace Workflowable\Form\Contracts;
+namespace Workflowable\Forms\Contracts;
 
 interface EmailContract extends TextContract
 {

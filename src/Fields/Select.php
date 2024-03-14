@@ -1,8 +1,8 @@
 <?php
 
-namespace Workflowable\Form\Fields;
+namespace Workflowable\Forms\Fields;
 
-use Workflowable\Form\Contracts\SelectContract;
+use Workflowable\Forms\Contracts\SelectContract;
 
 class Select extends Field implements SelectContract
 {

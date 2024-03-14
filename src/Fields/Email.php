@@ -1,8 +1,8 @@
 <?php
 
-namespace Workflowable\Form\Fields;
+namespace Workflowable\Forms\Fields;
 
-use Workflowable\Form\Contracts\EmailContract;
+use Workflowable\Forms\Contracts\EmailContract;
 
 class Email extends Text implements EmailContract
 {

@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Workflowable\\Form\\": "src/"
+            "Workflowable\\Forms\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Workflowable\\Form\\Tests\\": "tests/"
+            "Workflowable\\Forms\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -55,6 +55,13 @@
             "phpstan/extension-installer": true
         }
     },
-    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workflowable\\Forms\\FormsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
     "prefer-stable": true
 }

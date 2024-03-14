@@ -1,8 +1,8 @@
 <?php
 
-namespace Workflowable\Form\Fields;
+namespace Workflowable\Forms\Fields;
 
-use Workflowable\Form\Contracts\TelephoneContract;
+use Workflowable\Forms\Contracts\TelephoneContract;
 
 class Telephone extends Text implements TelephoneContract
 {
